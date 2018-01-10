@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <!-- Header 区域 ，使用的是 Mint-UI 中的 Header组件 -->
-    <mt-header fixed title="黑马程序员·gz10期">
+    <mt-header fixed title="黑马程序员">
       <span slot="left" @click="goback" v-if="flag">
         <mt-button icon="back">返回</mt-button>
       </span>
